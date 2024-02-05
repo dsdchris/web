@@ -1,0 +1,80 @@
+body {
+    font-family: 'Sixtyfour', sans-serif;
+    background: #000000;
+    color: #fff;
+}
+
+div header {
+    top: 0px;
+    display: flex;
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    
+}
+
+div header nav ul {
+    display: flex;
+    gap: 1.1em;
+    flex-wrap: wrap;
+}
+div header a video{
+    width: 120px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header nav ul li a {
+    color: rgb(212, 0, 255);
+    font-family: 'Honk', system-ui;
+    font-size: 22px;
+}
+
+.card {
+    perspective: 1500px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto 50px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.1);
+    overflow: hidden;
+    transform: rotateX(0deg) rotateY(0deg);
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: rotateX(20deg) rotateY(20deg);
+}
+
+.card img {
+    max-width: 100%;
+    transition: transform 2s;
+}
+
+.card:hover img {
+    transform: scale(2);
+}
+
+.card h2, .card p {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+}
+
+.card p {
+    top: auto;
+    bottom: 10px;
+}

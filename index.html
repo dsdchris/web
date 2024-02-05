@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christian Santamaria</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="/WEB/img/ico.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Honk&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap"
+      rel="stylesheet"/>
+      
+
+  </head>
+
+  <div class="hr">
+    <header>
+      <a href="/index.html"
+        ><video src="/video/video.mp4" autoplay loop muted></video
+      ></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="/proyectos.html">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+          <li><a href="/acercademi.html">Acerca de mí</a></li>
+        </ul>
+      </nav>
+    </header>
+  </div>
+
+  <body>
+    <div class="content">
+      <div class="background" style="background-image: url();" id="background">
+        <div>
+          <span class="neon"> ¿Te gusta la musica? </span>
+        </div>
+        <br>
+        <div class="btn-container">
+          <a href="#artfav" class="button"><span> Si </span></a>
+          <a href="https://matias.me/nsfw/" class="button" target="_blank"><span> No </span></a>
+      </div>
+      
+      </div>
+
+      <h2 id="artfav">Mis Artistas Favoritos</h2>
+      <section class="seccion-2">
+        <section class="galery">
+          <a
+            href="https://www.instagram.com/itsyoungmiko/"
+            style="background-image: url(/img/Galeria/miko.png)"
+            src=""
+            target="_blank"
+            alt="Miko"
+          >
+            <div class="imgxd">Young miko</div>
+          </a>
+          <a
+            href="https://www.instagram.com/badbunnypr/"
+            style="background-image: url(/img/Galeria/benito.png)"
+            src=""
+            alt="Benito"
+            target="_blank"
+          >
+            <div class="imgxd">Bad Bunny</div>
+          </a>
+          <a
+            href="https://www.instagram.com/feid/"
+            style="background-image: url(/img/Galeria/feid.png)"
+            src=""
+            target="_blank"
+            alt="Feid"
+          >
+            <div class="imgxd">Feid</div>
+          </a>
+          <a
+            href="https://www.instagram.com/milo.j/"
+            style="background-image: url(/img/Galeria/milo.png)"
+            src=""
+            target="_blank"
+            alt="Miloj"
+          >
+            <div class="imgxd">Milo J</div>
+          </a>
+          <a
+            href="https://www.instagram.com/nicki.nicole/"
+            style="background-image: url(/img/Galeria/nicki.png)"
+            src=""
+            target="_blank"
+            alt="nicki"
+          >
+            <div class="imgxd">Nicki Nicole</div>
+          </a>
+        </section>
+      </section>
+      <section id="contact" class="letras">
+        <div class="newsletter">
+          <h2>Suscríbete a nuestro boletín</h2>
+          <div class="botones">
+            <input type="email" id="email" placeholder="Introduce tu correo electrónico">
+          <button id="submit" disabled>Enviar</button>
+          </div>
+      </div>
+      <script>
+          document.getElementById('email').addEventListener('input', function(e) {
+              var button = document.getElementById('submit');
+              if (e.target.value.includes('@')) {
+                  button.style.display = 'block';
+                  button.disabled = false;
+              } else {
+                  button.style.display = 'none';
+                  button.disabled = true;
+              }
+          });
+      </script>
+      </section>
+      <section class="footer">
+        <div>
+          <a href="/index.html"
+            ><video
+              class="videofooter"
+              src="/video/video.mp4"
+              autoplay
+              loop
+              muted
+            ></video
+          ></a>
+        </div>
+
+        <div class="footer-container">
+          <ul>
+            <li>+57 3012345678</li>
+            <br>
+            <li>contacto@chris.com</li>
+            <br>
+            <li>Street 21, Montreal</li>
+          </ul>
+        </div>
+
+        <div class="logos">
+          <ul>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="/img/logos/instagram-50.png" alt="Instagram"></li></a>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="/img/logos/facebook-50.png" alt="Facebook"></li></a>
+            <li><a href="https://www.x.com" target="_blank"><img src="/img/logos/twitterx-50.png" alt="x"></li></a>
+            <li><img src="/img/logos/discord-50.png" alt="Discord"></li>
+          </ul>
+        </div>
+       
+      </section>
+      <span style="    color: white;
+      font-weight: 100;
+      font-size: 7px;
+      border-top: 1px solid;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;">
+        todos los derechos reservados a ***** 2024 
+
+      </span>
+    </div>
+  </body>
+
+  <script>
+    var imagenes = [
+        'https://images.unsplash.com/photo-1519608487953-e999c86e7455?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.pexels.com/photos/4488636/pexels-photo-4488636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'https://images.unsplash.com/photo-1604315523775-74cee3df116c?q=80&w=1450&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1706611500498-adcb9446aeda?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        'https://images.unsplash.com/photo-1599009876320-01a3d33c197d?q=80&w=1574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+   
+    ];
+
+    window.onload = function() {
+        // Selecciona un índice de imagen aleatorio
+        var indiceImagenAleatoria = Math.floor(Math.random() * imagenes.length);
+        
+        // Selecciona la imagen correspondiente al índice
+        var imagenAleatoria = imagenes[indiceImagenAleatoria];  
+        
+        // Obtiene el elemento del DOM con id 'background'
+        var elementoBackground = document.getElementById('background');
+        
+        // Establece la imagen de fondo del elemento
+        elementoBackground.style.backgroundImage = 'url(' + imagenAleatoria + ')';
+    }
+
+  </script>
+</html>
